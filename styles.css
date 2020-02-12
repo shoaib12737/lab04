@@ -2,6 +2,7 @@
 
 /* applies to screens smaller than 500px (first breakpoint) */
 /* and above unless overwritten below */
+/* comment*/
 
 body {
   background: #fcc;
@@ -22,6 +23,7 @@ nav a {
   text-decoration: none;
   transition: all 1.5s;
 }
+
 
 .menu {
   background: #555;
@@ -46,7 +48,7 @@ nav:hover {
 @media screen and (min-width: 500px) {
 
   /* applies to screens wider than 499px */
-  
+
   body {
     background: #cfc;
   }
@@ -75,5 +77,5 @@ nav:hover {
 
   body {
     background: #ccf;
-  } 
+  }
 }
